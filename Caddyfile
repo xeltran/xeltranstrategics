@@ -1,3 +1,7 @@
-http://88.222.245.20 {
+www.xeltranstrategics.co.uk {
+    redir https://xeltranstrategics.co.uk{uri}
+}
+
+xeltranstrategics.co.uk {
     reverse_proxy localhost:8000
 }
