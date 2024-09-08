@@ -1,4 +1,5 @@
 from flask import Flask, render_template_string, request, redirect
+from flask_cors import CORS
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
