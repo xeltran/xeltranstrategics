@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+beautifulsoup4 = "==4.12.3"
+blinker = "==1.8.2"
+certifi = "==2024.8.30"
+charset-normalizer = "==3.3.2"
+click = "==8.1.7"
+colorama = "==0.4.6"
+Flask = "==3.0.3"
+Flask-Cors = "==5.0.0"
+gunicorn = "==23.0.0"
+idna = "==3.8"
+itsdangerous = "==2.2.0"
+Jinja2 = "==3.1.4"
+MarkupSafe = "==2.1.5"
+packaging = "==24.1"
+requests = "==2.32.3"
+soupsieve = "==2.6"
+urllib3 = "==2.2.2"
+Werkzeug = "==3.0.4"
+
+[requires]
+python_version = "3.12.3"
